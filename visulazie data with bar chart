@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+
+# Data
+categories = ['Product A', 'Product B', 'Product C', 'Product D']
+values = [150, 200, 300, 100]
+
+# Create the bar chart
+plt.bar(categories, values, color=['blue', 'green', 'orange', 'red'])
+
+# Add labels and title
+plt.xlabel('Products')
+plt.ylabel('Sales')
+plt.title('Sales Figures for Different Products')
+
+# Display the chart
+plt.show()
